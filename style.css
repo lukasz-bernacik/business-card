@@ -21,4 +21,17 @@ body {
     background: #F8F8F8;
     border-radius: 16px;
     max-width: 624px;
+    padding: 32px;
+}
+
+.person {
+
+}
+
+.person__position {
+    margin: 0;
+}
+
+.person__name {
+    margin: 0;
 }
