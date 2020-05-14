@@ -25,13 +25,43 @@ body {
 }
 
 .person {
+  display: flex;
+}
 
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+
+.person__header {
+  margin-bottom: 24px;
+}
+
+.person__name {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.person__picture {
+  margin-right: 32px;
+  display: block;
+  height: 148px;
 }
 
 .person__position {
     margin: 0;
+    font-size: 18px;
+    color: #545454;
 }
 
-.person__name {
-    margin: 0;
+.person__site {
+  color: #E20613;
+  text-decoration: none;
+}
+
+.strong {
+  color: #ED6D05;
+  font-weight: normal;
 }
